@@ -1,0 +1,69 @@
+.body-lock {
+  overflow: hidden;
+}
+
+a {
+  color: #0984e3;
+}
+
+// Styles for navbar-toggler
+.navbar-toggler {
+  padding: 10px 0;
+
+  border: 0;
+  border-radius: 0;
+
+  .icon-bar {
+    display: block;
+    height: 4px;
+    width: 29px;
+
+    background: $primary-color;
+
+    @include transition(transform 0.5s cubic-bezier(0.65, 0.05, 0.36, 1));
+
+    &+.icon-bar {
+      margin-top: 4px;
+    }
+  }
+
+  &[aria-expanded="true"] {
+    z-index: 1000;
+    
+    .icon-bar {
+      background: $secondary-color;
+
+      &:first-child {
+        @include transform(rotate(225deg) translate(-6px, -5px));
+      }
+
+      &:nth-child(2) {
+        opacity: 0;
+      }
+
+      &:last-child {
+        @include transform(rotate(-225deg) translate(-6px, 6px));
+      }
+    }
+  }
+
+  @include on-event() {
+    outline: 0;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  
+}
+
+@media screen and (max-width: 991px) {
+  
+}
+
+@media screen and (max-width: 767px) {
+  
+}
+
+@media screen and (max-width: 575px) {
+  
+}

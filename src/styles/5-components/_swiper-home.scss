@@ -1,0 +1,100 @@
+.swiper-home {
+  margin-top: 44px;
+
+  .swiper-wrapper {
+    margin-bottom: 49px;
+  }
+
+  .swiper-pagination {
+    &-bullet {
+      margin: 0 5px;
+      width: 35px;
+      height: 3px;
+      opacity: 0.3;
+      border-radius: 20px;
+
+      &-active {
+        background: $primary-color;
+        opacity: 1;
+      }
+    }
+  }
+
+  &>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 5px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+  }
+
+  &-title {
+    margin-top: 38px;
+    margin-bottom: 0;
+  }
+
+  &-subtitle {
+    margin-top: 2px;
+  }
+}
+
+// Laptop
+@media screen and (max-width: 991px) {
+  .swiper-home {
+    margin-top: 35px;
+
+    .swiper-wrapper {
+      margin-bottom: 40px;
+    }
+
+    &-title {
+      margin-top: 32px;
+    }
+  }
+}
+
+// Tablet
+@media screen and (max-width: 767px) {
+  .swiper-home {
+    margin-top: 28px;
+
+    .swiper-wrapper {
+      margin-bottom: 35px;
+    }
+
+    &-img {
+      width: 320px;
+    }
+
+    &-title {
+      margin-top: 28px;
+    }
+  
+    &-subtitle {
+      margin-top: 1px;
+    }
+  }
+}
+
+// Mobile
+@media screen and (max-width: 575px) {
+  .swiper-home {
+    margin-top: 19px;
+
+    .swiper-wrapper {
+      margin-bottom: 28px;
+    }
+
+    &-img {
+      width: 260px;
+    }
+
+    &-title {
+      margin-top: 22px;
+    }
+  
+    &-subtitle {
+      margin-top: 0;
+    }
+  }
+}

@@ -1,0 +1,4 @@
+@include font-face($font-poppins, '../assets/fonts/', 'Poppins-Light', 'Poppins-Light', 300);
+@include font-face($font-poppins, '../assets/fonts/', 'Poppins-Regular', 'Poppins-Regular', 400);
+@include font-face($font-poppins, '../assets/fonts/', 'Poppins-Medium', 'Poppins-Medium', 500);
+@include font-face($font-poppins, '../assets/fonts/', 'Poppins-SemiBold', 'Poppins-SemiBold', 600);

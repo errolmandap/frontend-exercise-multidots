@@ -1,0 +1,123 @@
+/* Typography */
+
+body {
+  font-family: $font-poppins;
+  font-weight: 400;
+  color: $text-color;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 500;
+  color: $secondary-color;
+}
+
+.subtitle {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase; 
+}
+
+.description {
+  margin-top: 28px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.minor-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: $secondary-color;
+}
+
+.minor-subtitle {
+  font-size: 16px;
+  color: $gray-100;
+}
+
+.minor-description {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1199px) {
+  .title {
+    text-align: center;
+  }
+  
+  .subtitle {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .title {
+    font-size: 40px;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+  }
+  
+  .description {
+    margin-top: 24px;
+  }
+
+  .minor-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 32px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+  }
+  
+  .description {
+    margin-top: 18px;
+    font-size: 15px;
+  }
+
+  .minor-title {
+    font-size: 18px;
+  }
+
+  .minor-subtitle {
+    font-size: 15px;
+  }
+
+  .minor-description {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .title {
+    font-size: 24px;
+  }
+  
+  .subtitle {
+    font-size: 15px;
+  }
+  
+  .description {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+
+  .minor-title {
+    font-size: 17px;
+  }
+
+  .minor-subtitle {
+    font-size: 14px;
+  }
+
+  .minor-description {
+    font-size: 14px;
+  }
+}
